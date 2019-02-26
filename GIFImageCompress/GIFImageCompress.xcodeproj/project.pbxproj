@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5320BFC122251C8F001CBEF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320BFC022251C8F001CBEF2 /* AppDelegate.swift */; };
+		5320BFC822251C91001CBEF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5320BFC722251C91001CBEF2 /* Assets.xcassets */; };
+		5320BFCB22251C91001CBEF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5320BFC922251C91001CBEF2 /* LaunchScreen.storyboard */; };
+		5320BFD622251C91001CBEF2 /* GIFImageCompressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320BFD522251C91001CBEF2 /* GIFImageCompressTests.swift */; };
+		5320BFE122251C91001CBEF2 /* GIFImageCompressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320BFE022251C91001CBEF2 /* GIFImageCompressUITests.swift */; };
+		5320BFEF22251D8B001CBEF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320BFEE22251D8B001CBEF2 /* HomeViewController.swift */; };
+		5320BFF4222531E0001CBEF2 /* ImageCompress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320BFF3222531E0001CBEF2 /* ImageCompress.swift */; };
+		5320BFF72225341D001CBEF2 /* NSData+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5320BFF62225341D001CBEF2 /* NSData+Extension.m */; };
+		5320BFF922253FA9001CBEF2 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5320BFF822253FA8001CBEF2 /* demo.gif */; };
+		B3C86D27919244F9369FCDAA /* Pods_GIFImageCompress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B23DEEA95561D11AC425F1 /* Pods_GIFImageCompress.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5320BFD222251C91001CBEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5320BFB522251C8F001CBEF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5320BFBC22251C8F001CBEF2;
+			remoteInfo = GIFImageCompress;
+		};
+		5320BFDD22251C91001CBEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5320BFB522251C8F001CBEF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5320BFBC22251C8F001CBEF2;
+			remoteInfo = GIFImageCompress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B23DEEA95561D11AC425F1 /* Pods_GIFImageCompress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIFImageCompress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5320BFBD22251C8F001CBEF2 /* GIFImageCompress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFImageCompress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5320BFC022251C8F001CBEF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5320BFC722251C91001CBEF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5320BFCA22251C91001CBEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5320BFCC22251C91001CBEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5320BFD122251C91001CBEF2 /* GIFImageCompressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFImageCompressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5320BFD522251C91001CBEF2 /* GIFImageCompressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImageCompressTests.swift; sourceTree = "<group>"; };
+		5320BFD722251C91001CBEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5320BFDC22251C91001CBEF2 /* GIFImageCompressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFImageCompressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5320BFE022251C91001CBEF2 /* GIFImageCompressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImageCompressUITests.swift; sourceTree = "<group>"; };
+		5320BFE222251C91001CBEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5320BFEE22251D8B001CBEF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5320BFF022252136001CBEF2 /* GIFImageCompress-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GIFImageCompress-Bridge-Header.h"; sourceTree = "<group>"; };
+		5320BFF3222531E0001CBEF2 /* ImageCompress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCompress.swift; sourceTree = "<group>"; };
+		5320BFF52225341D001CBEF2 /* NSData+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Extension.h"; sourceTree = "<group>"; };
+		5320BFF62225341D001CBEF2 /* NSData+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extension.m"; sourceTree = "<group>"; };
+		5320BFF822253FA8001CBEF2 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		ABF98FFF514E9E56FE2BAF45 /* Pods-GIFImageCompress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFImageCompress.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIFImageCompress/Pods-GIFImageCompress.release.xcconfig"; sourceTree = "<group>"; };
+		B3B42C21448C25DAA358B9BF /* Pods-GIFImageCompress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFImageCompress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFImageCompress/Pods-GIFImageCompress.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5320BFBA22251C8F001CBEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C86D27919244F9369FCDAA /* Pods_GIFImageCompress.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5320BFCE22251C91001CBEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5320BFD922251C91001CBEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5320BFB422251C8F001CBEF2 = {
+			isa = PBXGroup;
+			children = (
+				5320BFBF22251C8F001CBEF2 /* GIFImageCompress */,
+				5320BFD422251C91001CBEF2 /* GIFImageCompressTests */,
+				5320BFDF22251C91001CBEF2 /* GIFImageCompressUITests */,
+				5320BFBE22251C8F001CBEF2 /* Products */,
+				7869D75C0588894B4033E75A /* Pods */,
+				5EF05696426D64180BA9D767 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5320BFBE22251C8F001CBEF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5320BFBD22251C8F001CBEF2 /* GIFImageCompress.app */,
+				5320BFD122251C91001CBEF2 /* GIFImageCompressTests.xctest */,
+				5320BFDC22251C91001CBEF2 /* GIFImageCompressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5320BFBF22251C8F001CBEF2 /* GIFImageCompress */ = {
+			isa = PBXGroup;
+			children = (
+				5320BFF822253FA8001CBEF2 /* demo.gif */,
+				5320BFF3222531E0001CBEF2 /* ImageCompress.swift */,
+				5320BFC022251C8F001CBEF2 /* AppDelegate.swift */,
+				5320BFEE22251D8B001CBEF2 /* HomeViewController.swift */,
+				5320BFF52225341D001CBEF2 /* NSData+Extension.h */,
+				5320BFF62225341D001CBEF2 /* NSData+Extension.m */,
+				5320BFF022252136001CBEF2 /* GIFImageCompress-Bridge-Header.h */,
+				5320BFC722251C91001CBEF2 /* Assets.xcassets */,
+				5320BFC922251C91001CBEF2 /* LaunchScreen.storyboard */,
+				5320BFCC22251C91001CBEF2 /* Info.plist */,
+			);
+			path = GIFImageCompress;
+			sourceTree = "<group>";
+		};
+		5320BFD422251C91001CBEF2 /* GIFImageCompressTests */ = {
+			isa = PBXGroup;
+			children = (
+				5320BFD522251C91001CBEF2 /* GIFImageCompressTests.swift */,
+				5320BFD722251C91001CBEF2 /* Info.plist */,
+			);
+			path = GIFImageCompressTests;
+			sourceTree = "<group>";
+		};
+		5320BFDF22251C91001CBEF2 /* GIFImageCompressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5320BFE022251C91001CBEF2 /* GIFImageCompressUITests.swift */,
+				5320BFE222251C91001CBEF2 /* Info.plist */,
+			);
+			path = GIFImageCompressUITests;
+			sourceTree = "<group>";
+		};
+		5EF05696426D64180BA9D767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B23DEEA95561D11AC425F1 /* Pods_GIFImageCompress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7869D75C0588894B4033E75A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3B42C21448C25DAA358B9BF /* Pods-GIFImageCompress.debug.xcconfig */,
+				ABF98FFF514E9E56FE2BAF45 /* Pods-GIFImageCompress.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5320BFBC22251C8F001CBEF2 /* GIFImageCompress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5320BFE522251C91001CBEF2 /* Build configuration list for PBXNativeTarget "GIFImageCompress" */;
+			buildPhases = (
+				D68906ECFF292118DBD3A223 /* [CP] Check Pods Manifest.lock */,
+				5320BFB922251C8F001CBEF2 /* Sources */,
+				5320BFBA22251C8F001CBEF2 /* Frameworks */,
+				5320BFBB22251C8F001CBEF2 /* Resources */,
+				C92CB397683D335F84054B6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIFImageCompress;
+			productName = GIFImageCompress;
+			productReference = 5320BFBD22251C8F001CBEF2 /* GIFImageCompress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5320BFD022251C91001CBEF2 /* GIFImageCompressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5320BFE822251C91001CBEF2 /* Build configuration list for PBXNativeTarget "GIFImageCompressTests" */;
+			buildPhases = (
+				5320BFCD22251C91001CBEF2 /* Sources */,
+				5320BFCE22251C91001CBEF2 /* Frameworks */,
+				5320BFCF22251C91001CBEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5320BFD322251C91001CBEF2 /* PBXTargetDependency */,
+			);
+			name = GIFImageCompressTests;
+			productName = GIFImageCompressTests;
+			productReference = 5320BFD122251C91001CBEF2 /* GIFImageCompressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5320BFDB22251C91001CBEF2 /* GIFImageCompressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5320BFEB22251C91001CBEF2 /* Build configuration list for PBXNativeTarget "GIFImageCompressUITests" */;
+			buildPhases = (
+				5320BFD822251C91001CBEF2 /* Sources */,
+				5320BFD922251C91001CBEF2 /* Frameworks */,
+				5320BFDA22251C91001CBEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5320BFDE22251C91001CBEF2 /* PBXTargetDependency */,
+			);
+			name = GIFImageCompressUITests;
+			productName = GIFImageCompressUITests;
+			productReference = 5320BFDC22251C91001CBEF2 /* GIFImageCompressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5320BFB522251C8F001CBEF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = hanbo;
+				TargetAttributes = {
+					5320BFBC22251C8F001CBEF2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5320BFD022251C91001CBEF2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5320BFBC22251C8F001CBEF2;
+					};
+					5320BFDB22251C91001CBEF2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5320BFBC22251C8F001CBEF2;
+					};
+				};
+			};
+			buildConfigurationList = 5320BFB822251C8F001CBEF2 /* Build configuration list for PBXProject "GIFImageCompress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5320BFB422251C8F001CBEF2;
+			productRefGroup = 5320BFBE22251C8F001CBEF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5320BFBC22251C8F001CBEF2 /* GIFImageCompress */,
+				5320BFD022251C91001CBEF2 /* GIFImageCompressTests */,
+				5320BFDB22251C91001CBEF2 /* GIFImageCompressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5320BFBB22251C8F001CBEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5320BFF922253FA9001CBEF2 /* demo.gif in Resources */,
+				5320BFCB22251C91001CBEF2 /* LaunchScreen.storyboard in Resources */,
+				5320BFC822251C91001CBEF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5320BFCF22251C91001CBEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5320BFDA22251C91001CBEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C92CB397683D335F84054B6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GIFImageCompress/Pods-GIFImageCompress-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFImageCompress/Pods-GIFImageCompress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D68906ECFF292118DBD3A223 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GIFImageCompress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5320BFB922251C8F001CBEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5320BFF72225341D001CBEF2 /* NSData+Extension.m in Sources */,
+				5320BFC122251C8F001CBEF2 /* AppDelegate.swift in Sources */,
+				5320BFEF22251D8B001CBEF2 /* HomeViewController.swift in Sources */,
+				5320BFF4222531E0001CBEF2 /* ImageCompress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5320BFCD22251C91001CBEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5320BFD622251C91001CBEF2 /* GIFImageCompressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5320BFD822251C91001CBEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5320BFE122251C91001CBEF2 /* GIFImageCompressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5320BFD322251C91001CBEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5320BFBC22251C8F001CBEF2 /* GIFImageCompress */;
+			targetProxy = 5320BFD222251C91001CBEF2 /* PBXContainerItemProxy */;
+		};
+		5320BFDE22251C91001CBEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5320BFBC22251C8F001CBEF2 /* GIFImageCompress */;
+			targetProxy = 5320BFDD22251C91001CBEF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5320BFC922251C91001CBEF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5320BFCA22251C91001CBEF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5320BFE322251C91001CBEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5320BFE422251C91001CBEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5320BFE622251C91001CBEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B42C21448C25DAA358B9BF /* Pods-GIFImageCompress.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQ89F47G6;
+				INFOPLIST_FILE = GIFImageCompress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gicImageCompress.GIFImageCompress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/GIFImageCompress-Bridge-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5320BFE722251C91001CBEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF98FFF514E9E56FE2BAF45 /* Pods-GIFImageCompress.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQ89F47G6;
+				INFOPLIST_FILE = GIFImageCompress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gicImageCompress.GIFImageCompress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/GIFImageCompress-Bridge-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5320BFE922251C91001CBEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQ89F47G6;
+				INFOPLIST_FILE = GIFImageCompressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gicImageCompress.GIFImageCompressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIFImageCompress.app/GIFImageCompress";
+			};
+			name = Debug;
+		};
+		5320BFEA22251C91001CBEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQ89F47G6;
+				INFOPLIST_FILE = GIFImageCompressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gicImageCompress.GIFImageCompressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIFImageCompress.app/GIFImageCompress";
+			};
+			name = Release;
+		};
+		5320BFEC22251C91001CBEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQ89F47G6;
+				INFOPLIST_FILE = GIFImageCompressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gicImageCompress.GIFImageCompressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIFImageCompress;
+			};
+			name = Debug;
+		};
+		5320BFED22251C91001CBEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQ89F47G6;
+				INFOPLIST_FILE = GIFImageCompressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gicImageCompress.GIFImageCompressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIFImageCompress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5320BFB822251C8F001CBEF2 /* Build configuration list for PBXProject "GIFImageCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5320BFE322251C91001CBEF2 /* Debug */,
+				5320BFE422251C91001CBEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5320BFE522251C91001CBEF2 /* Build configuration list for PBXNativeTarget "GIFImageCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5320BFE622251C91001CBEF2 /* Debug */,
+				5320BFE722251C91001CBEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5320BFE822251C91001CBEF2 /* Build configuration list for PBXNativeTarget "GIFImageCompressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5320BFE922251C91001CBEF2 /* Debug */,
+				5320BFEA22251C91001CBEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5320BFEB22251C91001CBEF2 /* Build configuration list for PBXNativeTarget "GIFImageCompressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5320BFEC22251C91001CBEF2 /* Debug */,
+				5320BFED22251C91001CBEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5320BFB522251C8F001CBEF2 /* Project object */;
+}
