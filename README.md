@@ -11,4 +11,4 @@
 
 ![示例](https://github.com/Eenie-Meenie/GifImageCompress/blob/master/ImageCompress.gif)
 
-另附本文[简书](http://www.jianshu.com/p/c400669e2c1c)地址 
+另附本文[简书](https://www.jianshu.com/p/43a59e81d658)地址 
